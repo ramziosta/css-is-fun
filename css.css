@@ -1,0 +1,60 @@
+
+
+body {
+  cursor: none;
+ 
+    display: grid;
+    grid-template-columns: repeat(65, 20px);
+  }
+
+.square {
+    width:20px;
+    height: 20px;
+    display:inline-block;
+    border:solid 0px rgb(255, 255, 255);
+    pointer-events:auto;
+    cursor: url("portal.svg");
+}
+
+/* .square::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #ff0000, #0000ff);
+  } */
+  .h1{
+    background-image: url("/portal.svg");
+
+    background-size: cover;
+  
+    height:100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position:absolute;
+    pointer-events: none;
+    margin: 0 auto;
+    top: 300px;
+    left: 450px;
+    z-index: -1;
+  }
+  h1{
+   
+    color: rgb(216, 0, 0);
+   position: relative;
+ left: 30px;
+    text-align: center;
+    font-size: 8rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    letter-spacing: 15px;
+    pointer-events: none;
+    }
+
+    .r, .a, .m, .z, .i,
+    .space, .o, .s, .t, .a {
+      display: block;
+    }
